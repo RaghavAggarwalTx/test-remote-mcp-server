@@ -7,7 +7,7 @@ mcp=FastMCP("Simpele Calculator Server")
 
 #Tool: Add two numbers 
 @mcp.tool
-def add(a:int ,b:int)->int:
+def ad(a:int ,b:int)->int:
     """Add two numbers together.
     Args:
     a:First Number.
@@ -19,7 +19,7 @@ def add(a:int ,b:int)->int:
 
 #Tool: Generate a random number 
 @mcp.tool
-def random_number(min_val:int =1 ,max_val:int=100)->int:
+def random_(min_val:int =1 ,max_val:int=100)->int:
     """Generate a random number within a range.
     Args:
     min_value:Minimum value (default: 1).
